@@ -1,0 +1,29 @@
+{
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "java.debug.settings.onBuildFailureProceed": true,
+    "java.compile.nullAnalysis.mode": "disabled",
+    "java.eclipse.downloadSources": true,
+    "java.maven.downloadSources": true,
+    "java.sources.organizeImports.starThreshold": 99,
+    "java.sources.organizeImports.staticStarThreshold": 99,
+    "lombok.enabled": true,
+    "java.jdt.ls.lombokSupport.enabled": true,
+    "java.configuration.runtimes": [],
+    "java.import.gradle.enabled": false,
+    "java.server.launchMode": "Standard",
+    "java.autobuild.enabled": false,
+    "java.maxConcurrentBuilds": 1,
+    "java.jdt.ls.vmargs": "-javaagent:/home/debian/.m2/repository/org/projectlombok/lombok/1.18.32/lombok-1.18.32.jar",
+    "java.cleanup.actions": [
+        "qualifyMembers",
+        "qualifyStaticMembers",
+        "addOverride",
+        "addDeprecated",
+        "stringConcatToTextBlock",
+        "invertEquals",
+        "addFinalModifier",
+        "instanceofPatternMatch",
+        "lambdaExpression",
+        "switchExpression"
+    ]
+}
